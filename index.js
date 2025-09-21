@@ -14,6 +14,11 @@ function runEventListeners(){
 
 }
 
+function clear(){
+    searchInput.value="";
+    imageListWrapper.innerHTML="";
+}
+
 
 function search(e){
 
